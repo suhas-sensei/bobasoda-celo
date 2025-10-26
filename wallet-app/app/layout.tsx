@@ -10,7 +10,7 @@ const bungee = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Wallet App",
+  title: "BobaSoda",
   description: "Crypto wallet and trading interface",
 };
 
