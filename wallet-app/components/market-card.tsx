@@ -215,7 +215,7 @@ export default function MarketCard({ marketName, onSwipeComplete, hasSwipedThisR
         <div className="absolute inset-0 z-[20] flex items-center justify-center pointer-events-none">
           <div className="bg-black bg-opacity-70 backdrop-blur-sm rounded-2xl px-8 py-6 mx-4 border-2 border-yellow-400">
             <p className="text-yellow-400 font-bold text-2xl sm:text-3xl text-center">
-              🔒 ROUND LOCKED
+              ROUND LOCKED
             </p>
             <p className="text-white text-base sm:text-lg text-center mt-2 opacity-90">
               No more bets accepted
@@ -376,19 +376,19 @@ export default function MarketCard({ marketName, onSwipeComplete, hasSwipedThisR
           <div className="relative z-10">
             <div className="mb-4 sm:mb-5">
               <p className="text-black text-xs sm:text-sm opacity-75 mb-1">NEXT ROUND</p>
-              <p className="text-black font-bold text-2xl sm:text-3xl">147 CELO</p>
+              <p className="text-black font-bold text-2xl sm:text-3xl">0 cUSD</p>
               <p className="text-black text-xs sm:text-sm opacity-60">PRIZE POOL</p>
             </div>
 
             <div className="grid grid-cols-2 gap-4 sm:gap-6">
               <div>
                 <p className="text-black text-xs sm:text-sm opacity-75 mb-1">Down</p>
-                <p className="font-bold text-3xl sm:text-4xl" style={{ color: '#ed4b9e' }}>1.5x</p>
+                <p className="font-bold text-3xl sm:text-4xl" style={{ color: '#ed4b9e' }}>1x</p>
                 <p className="text-black text-[10px] sm:text-xs opacity-60">payout</p>
               </div>
               <div className="text-right">
                 <p className="text-black text-xs sm:text-sm opacity-75 mb-1">Up</p>
-                <p className="font-bold text-3xl sm:text-4xl" style={{ color: '#2e8656' }}>2.5x</p>
+                <p className="font-bold text-3xl sm:text-4xl" style={{ color: '#2e8656' }}>1x</p>
                 <p className="text-black text-[10px] sm:text-xs opacity-60">payout</p>
               </div>
             </div>
