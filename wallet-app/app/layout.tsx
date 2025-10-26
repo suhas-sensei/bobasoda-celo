@@ -12,6 +12,9 @@ const bungee = localFont({
 export const metadata: Metadata = {
   title: "BobaSoda",
   description: "Crypto wallet and trading interface",
+  icons: {
+    icon: "/icons/bobbb.png",
+  },
 };
 
 export const viewport: Viewport = {
